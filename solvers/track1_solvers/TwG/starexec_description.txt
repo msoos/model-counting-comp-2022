@@ -1,0 +1,1 @@
+SWATS: Solver TwG used to calculate number of models of given CNF formula.

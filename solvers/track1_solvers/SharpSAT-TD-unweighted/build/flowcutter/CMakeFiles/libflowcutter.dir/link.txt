@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-7/root/usr/bin/ar cr liblibflowcutter.a  CMakeFiles/libflowcutter.dir/cell.cpp.o CMakeFiles/libflowcutter.dir/greedy_order.cpp.o CMakeFiles/libflowcutter.dir/list_graph.cpp.o CMakeFiles/libflowcutter.dir/tree_decomposition.cpp.o
+/opt/rh/devtoolset-7/root/usr/bin/ranlib liblibflowcutter.a

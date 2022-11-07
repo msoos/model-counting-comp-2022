@@ -1,0 +1,27 @@
+#!/bin/bash
+
+DIR=`pwd`
+
+tar jxvf gmp-6.2.1.tar.bz2
+cd gmp-6.2.1
+./configure --disable-shared --enable-cxx --prefix=$DIR/gpmc/gmp-lib
+make 2>&1
+make check
+make install
+cd ..
+
+tar jxvf mpfr-4.1.0.tar.bz2
+cd mpfr-4.1.0
+./configure --disable-shared --prefix=$DIR/gpmc/mpfr-lib --with-gmp=$DIR/gpmc/gmp-lib
+make 2>&1
+make check
+make install
+cd ..
+
+rm -rf gmp-6.2.1 mpfr-4.1.0
+
+cd gpmc 
+./build.sh r
+./clean.sh
+rm -rf gmp-lib/* mpfr-lib/*
+

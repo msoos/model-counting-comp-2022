@@ -1,0 +1,3 @@
+/export/starexec/sandbox2/solver/build/CMakeFiles/flow_cutter_pace17.dir
+/export/starexec/sandbox2/solver/build/flowcutter/CMakeFiles/libflowcutter.dir
+/export/starexec/sandbox2/solver/build/CMakeFiles/sharpSAT.dir

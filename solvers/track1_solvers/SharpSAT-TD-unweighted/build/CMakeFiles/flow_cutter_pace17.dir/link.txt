@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-7/root/usr/bin/c++   -std=c++11 -O3 -Wall -Wextra -Wshadow -g -Wfatal-errors -Wno-sign-compare -Wno-literal-suffix    CMakeFiles/flow_cutter_pace17.dir/flowcutter/pace.cpp.o  -o flow_cutter_pace17 -rdynamic flowcutter/liblibflowcutter.a 

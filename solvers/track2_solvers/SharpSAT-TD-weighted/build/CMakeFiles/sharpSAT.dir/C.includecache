@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/export/starexec/sandbox2/solver/src/clhash/clhash.c
+clhash.h
+/export/starexec/sandbox2/solver/src/clhash/clhash.h
+assert.h
+-
+string.h
+-
+x86intrin.h
+-
+
+/export/starexec/sandbox2/solver/src/clhash/clhash.h
+stdlib.h
+-
+stdint.h
+-
+stddef.h
+-
+vector
+-
+string
+-
+cstring
+-
+

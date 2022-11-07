@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./gpmc -mode=3 $1
